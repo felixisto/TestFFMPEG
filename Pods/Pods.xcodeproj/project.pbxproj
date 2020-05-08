@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2FE1A9244861B63BCB2A33D4371EF594 /* mobile-ffmpeg-https */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAC924F6142613254453CE1E460A3749 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-https" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "mobile-ffmpeg-https";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0683E04B546F7ADECEE72517E4D53A03 /* Pods-TestFFMPEG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E4A9446476E002A8BED4FD4FD969FD /* Pods-TestFFMPEG-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00B73946F26D4035D6DA40ECFCEA8B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FE1A9244861B63BCB2A33D4371EF594;
+			remoteInfo = "mobile-ffmpeg-https";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00144646736CE091E1E4B4D4FF8CFDE6 /* Pods-TestFFMPEG-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFFMPEG-acknowledgements.plist"; sourceTree = "<group>"; };
+		0966B46002F5677971AEDCEF2F7FFA91 /* Pods-TestFFMPEG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFFMPEG.release.xcconfig"; sourceTree = "<group>"; };
+		0BFACE6F11C8A445204846240F978515 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		1AA1CF78B122B15E48252C8D6B4383A0 /* gnutls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gnutls.framework; sourceTree = "<group>"; };
+		2ACE897CE28BBB9D77A12AFEFC59353C /* gmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gmp.framework; sourceTree = "<group>"; };
+		38B8048752696714A60E6768B18D7594 /* libnettle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libnettle.framework; sourceTree = "<group>"; };
+		68C8F9A765A0DB9ECD99D91670B79FFD /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
+		6AD8B4E524C0239831F07637CA492201 /* libcharset.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcharset.framework; sourceTree = "<group>"; };
+		6DCFB65B4C56291AEBB7998480A0CA0B /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		852136E799502100390EBD667255A9DC /* Pods-TestFFMPEG-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestFFMPEG-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89029101E623D73D7B02B5AB06B4E3D3 /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		9171EF9F192BBA650316E6F675808D3E /* Pods-TestFFMPEG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFFMPEG.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F072F41A652002EB81EF34C3209342F /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
+		C3687D09D171093F28423D64971B710F /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		C5D88C7C9927307A57416008F6B11266 /* libPods-TestFFMPEG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestFFMPEG.a"; path = "libPods-TestFFMPEG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FBB9FFAE79D786F7DA99FE63153F18 /* libiconv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libiconv.framework; sourceTree = "<group>"; };
+		D0D82C3623856DDB4E147AAC9F85000D /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		D36849CC9D3837CFF535E70BCB250797 /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		E40AA26182F8F24742777C1D25D2043E /* mobile-ffmpeg-https.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-https.xcconfig"; sourceTree = "<group>"; };
+		E5E4A9446476E002A8BED4FD4FD969FD /* Pods-TestFFMPEG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestFFMPEG-dummy.m"; sourceTree = "<group>"; };
+		F508EEF16894AD9FB560A30435A280ED /* libhogweed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libhogweed.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6AEE46AB1BDEC629B679E4BE5401681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024598458664D77B0BC56350EF8910DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C9ECC4D3051642AF37214822577F8 /* mobile-ffmpeg-https */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22C7CB10FF6F017F0CC65ACC3D15AC80 /* Pods-TestFFMPEG */ = {
+			isa = PBXGroup;
+			children = (
+				852136E799502100390EBD667255A9DC /* Pods-TestFFMPEG-acknowledgements.markdown */,
+				00144646736CE091E1E4B4D4FF8CFDE6 /* Pods-TestFFMPEG-acknowledgements.plist */,
+				E5E4A9446476E002A8BED4FD4FD969FD /* Pods-TestFFMPEG-dummy.m */,
+				9171EF9F192BBA650316E6F675808D3E /* Pods-TestFFMPEG.debug.xcconfig */,
+				0966B46002F5677971AEDCEF2F7FFA91 /* Pods-TestFFMPEG.release.xcconfig */,
+			);
+			name = "Pods-TestFFMPEG";
+			path = "Target Support Files/Pods-TestFFMPEG";
+			sourceTree = "<group>";
+		};
+		29FEEFB1B443DC42CD8E62C36331E2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D88C7C9927307A57416008F6B11266 /* libPods-TestFFMPEG.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AAA4EA54CF358AE123C3DC0B4EDD82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C7CB10FF6F017F0CC65ACC3D15AC80 /* Pods-TestFFMPEG */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		890A5091FBCB402A89ED45F5E36B3F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE897CE28BBB9D77A12AFEFC59353C /* gmp.framework */,
+				1AA1CF78B122B15E48252C8D6B4383A0 /* gnutls.framework */,
+				6DCFB65B4C56291AEBB7998480A0CA0B /* libavcodec.framework */,
+				D36849CC9D3837CFF535E70BCB250797 /* libavdevice.framework */,
+				89029101E623D73D7B02B5AB06B4E3D3 /* libavfilter.framework */,
+				0BFACE6F11C8A445204846240F978515 /* libavformat.framework */,
+				68C8F9A765A0DB9ECD99D91670B79FFD /* libavutil.framework */,
+				6AD8B4E524C0239831F07637CA492201 /* libcharset.framework */,
+				F508EEF16894AD9FB560A30435A280ED /* libhogweed.framework */,
+				C7FBB9FFAE79D786F7DA99FE63153F18 /* libiconv.framework */,
+				38B8048752696714A60E6768B18D7594 /* libnettle.framework */,
+				9F072F41A652002EB81EF34C3209342F /* libswresample.framework */,
+				D0D82C3623856DDB4E147AAC9F85000D /* libswscale.framework */,
+				C3687D09D171093F28423D64971B710F /* mobileffmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD9C2E7D68F6B3F42150531ADC897274 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40AA26182F8F24742777C1D25D2043E /* mobile-ffmpeg-https.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mobile-ffmpeg-https";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				024598458664D77B0BC56350EF8910DD /* Pods */,
+				29FEEFB1B443DC42CD8E62C36331E2DF /* Products */,
+				45AAA4EA54CF358AE123C3DC0B4EDD82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1C9ECC4D3051642AF37214822577F8 /* mobile-ffmpeg-https */ = {
+			isa = PBXGroup;
+			children = (
+				890A5091FBCB402A89ED45F5E36B3F9D /* Frameworks */,
+				AD9C2E7D68F6B3F42150531ADC897274 /* Support Files */,
+			);
+			name = "mobile-ffmpeg-https";
+			path = "mobile-ffmpeg-https";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066B3F7193096821C4359A937A1A1775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		583564417E9A89DE533116C9C87F742D /* Pods-TestFFMPEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E55C7A2F3B87493828D7F954BF200F /* Build configuration list for PBXNativeTarget "Pods-TestFFMPEG" */;
+			buildPhases = (
+				066B3F7193096821C4359A937A1A1775 /* Headers */,
+				66E0A61A804CE004F1378DD2B4D267C2 /* Sources */,
+				F6AEE46AB1BDEC629B679E4BE5401681 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A2251BCC3B8ECA64173346C47B4479 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestFFMPEG";
+			productName = "Pods-TestFFMPEG";
+			productReference = C5D88C7C9927307A57416008F6B11266 /* libPods-TestFFMPEG.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 29FEEFB1B443DC42CD8E62C36331E2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FE1A9244861B63BCB2A33D4371EF594 /* mobile-ffmpeg-https */,
+				583564417E9A89DE533116C9C87F742D /* Pods-TestFFMPEG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66E0A61A804CE004F1378DD2B4D267C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0683E04B546F7ADECEE72517E4D53A03 /* Pods-TestFFMPEG-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3A2251BCC3B8ECA64173346C47B4479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-https";
+			target = 2FE1A9244861B63BCB2A33D4371EF594 /* mobile-ffmpeg-https */;
+			targetProxy = 00B73946F26D4035D6DA40ECFCEA8B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		284E64F0AB19C0E8D80D7B5C2B70DF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40AA26182F8F24742777C1D25D2043E /* mobile-ffmpeg-https.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5F1713D70FE006696036012D1A29A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9171EF9F192BBA650316E6F675808D3E /* Pods-TestFFMPEG.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF659F74F26E0401BE4B90CB725A73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40AA26182F8F24742777C1D25D2043E /* mobile-ffmpeg-https.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F17C331B5B7EECDD5310037C9C19C3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0966B46002F5677971AEDCEF2F7FFA91 /* Pods-TestFFMPEG.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E55C7A2F3B87493828D7F954BF200F /* Build configuration list for PBXNativeTarget "Pods-TestFFMPEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F1713D70FE006696036012D1A29A56 /* Debug */,
+				F17C331B5B7EECDD5310037C9C19C3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC924F6142613254453CE1E460A3749 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-https" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF659F74F26E0401BE4B90CB725A73D /* Debug */,
+				284E64F0AB19C0E8D80D7B5C2B70DF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

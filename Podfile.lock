@@ -1,0 +1,16 @@
+PODS:
+  - mobile-ffmpeg-https (4.2)
+
+DEPENDENCIES:
+  - mobile-ffmpeg-https (= 4.2)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-https
+
+SPEC CHECKSUMS:
+  mobile-ffmpeg-https: b0dc72c72eca85a292573b80e2ce4897a6c74e77
+
+PODFILE CHECKSUM: 46726013a71942a6e367a82c4c439dbdfbdc31e4
+
+COCOAPODS: 1.8.4
