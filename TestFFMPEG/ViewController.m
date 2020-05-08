@@ -100,7 +100,9 @@
     
     if (result != 0) {
         NSLog(@"FFMPEGTest: error while reading next frame");
-    }
+    } else {
+		NSLog(@"FFMPEGTest: next frame has been read");
+	}
 }
 
 @end
