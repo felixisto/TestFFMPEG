@@ -19,6 +19,7 @@
 
 @interface ViewController () {
     AVFormatContext *context;
+	int frameCount;
 }
 
 @property (strong, nonatomic) NSThread* readThread;
@@ -66,6 +67,8 @@
         avformat_close_input(&context);
         return false;
     }
+	
+	frameCount = 0;
     
     return true;
 }
@@ -101,7 +104,9 @@
     if (result != 0) {
         NSLog(@"FFMPEGTest: error while reading next frame");
     } else {
-		NSLog(@"FFMPEGTest: next frame has been read");
+	    frameCount++;
+	
+		NSLog(@"FFMPEGTest: next frame has been read, count: %d", frameCount);
 	}
 }
 
